@@ -1,0 +1,100 @@
+.grid{
+    display : grid;
+    grid-template-columns : 100px 100px 100px 100px 100px 100px;
+    grid-template-rows : 100px 100px 100px 100px 100px 100px;
+    margin: 5px;
+    border: 5px;
+}
+
+
+
+.box1{
+    background-color: red;
+    grid-row: span 2;
+    border: 3px solid white;
+}
+
+.box2 {
+    background-color: blueviolet;
+   border: 3px solid white;
+}
+
+.box3{
+    background-color: red;
+    grid-column: span 2;
+    border: 3px solid white;
+}
+
+.box4{
+    background-color: blue;
+    border: 3px solid white;
+}
+
+.box5{
+    background-color: white;
+    grid-row: span 3;
+    border: 3px solid white;
+}
+
+.box6{
+    background-color: orange;
+    grid-row: span 2;
+    border: 3px solid white;
+}
+
+.box7{
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 2;
+    border: 3px solid white;
+}
+
+.box8{
+    background-color: orange;
+    grid-row: span 2;
+    border: 3px solid white;
+}
+
+.box9{
+    background-color: blueviolet;
+    border: 3px solid white;
+}
+
+.box10{
+    background-color: orange;
+    grid-row: span 2;
+    border: 3px solid white;
+}
+
+.box11{
+    background-color: blue;
+    border: 3px solid white;
+}
+
+.box12{
+    background-color: blueviolet;
+    border: 3px solid white;
+}
+
+.box13{
+    background-color: red;
+    grid-column: span 2;
+    border: 3px solid white;
+}
+.box15{
+    background-color: blueviolet;
+    border: 3px solid white;
+}
+.box16{
+    background-color: orange;
+    grid-column: span 2;
+    border: 3px solid white;
+}
+.box17{
+    background-color: blueviolet;
+    border: 3px solid white;
+}
+.box18{
+    background-color: blue;
+    border: 3px solid white;
+}
