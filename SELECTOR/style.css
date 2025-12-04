@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+}
+#unique{
+    color:red;
+    font-weight: bold;
+}
+.item{
+    color:green;
+}
+h2,p{
+    font-style:italic;
+}
+div p{
+background-color: burlywood;
+}
+
+div>#main{
+
+}
+h4~p{
+    border:1px solid red;
+}
+a:hover{
+    color:orange;
+    border:1px solid red;
+}
+p::first-letter{
+    font-size:25px;
+    color:purple;
+}
+body{
+    background-color: yellow;
+    
+}
+div>#main{
+    background-color: blueviolet;
+}
